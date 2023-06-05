@@ -89,7 +89,7 @@ public partial class jidelnaPage : ContentPage
                 await streamWriter.WriteAsync(itemString);
                 // File saved successfully
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 // Handle the exception (e.g., show an error message)
             }

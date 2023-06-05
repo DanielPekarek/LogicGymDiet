@@ -10,7 +10,7 @@
         <BackButtonBehavior IsEnabled="False" IsVisible="False" />
     </Shell.BackButtonBehavior>
 
-
+    <!--  mřížka s paletou předvolených témat  -->
     <Grid
         ColumnDefinitions="*,*"
         ColumnSpacing="30"
@@ -83,7 +83,7 @@
         </Grid>
     </Grid>
 
-
+    <!--  vršek nastavení s tlačítkem a designem  -->
     <Shell.TitleView>
         <Grid>
             <Label

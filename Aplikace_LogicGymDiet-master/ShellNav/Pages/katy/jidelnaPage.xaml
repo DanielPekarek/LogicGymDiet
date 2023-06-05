@@ -9,7 +9,7 @@
     BackgroundColor="{DynamicResource BackgroundColor}">
 
     <Grid RowDefinitions="5,*,80">
-
+        <!--  Mřížka pro zobrazení  -->
         <Grid
             x:Name="addGrid"
             Grid.RowSpan="4"
@@ -21,7 +21,7 @@
             RowDefinitions="*,*,*,*,*,*,*"
             WidthRequest="280"
             ZIndex="2">
-
+            <!--  Vždycky nadpis a entry pro vložení dat  -->
             <Label
                 Grid.Row="0"
                 Grid.Column="0"
@@ -129,7 +129,7 @@
                 android:Entry.ImeOptions="Done"
                 BackgroundColor="{DynamicResource ShellBackgroundColor}"
                 TextColor="Black" />
-
+            <!--  Tlačítka pro uložení nebo cancel  -->
 
             <Button
                 x:Name="saveBtn"
@@ -153,7 +153,7 @@
                 Clicked="cancelBtn_Clicked"
                 Text="Cancel" />
         </Grid>
-
+        <!--  Grid znova akorát pro editaci  -->
         <Grid
             x:Name="editGrid"
             Grid.RowSpan="4"
@@ -312,7 +312,7 @@
                         TextColor="White"
                         VerticalTextAlignment="Center" />
                 </CollectionView.Header>
-
+                <!--  datatemplate info o patravinách  -->
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
 
@@ -365,7 +365,7 @@
 
             </CollectionView>
         </ScrollView>
-
+        <!--  talčítko pro přidání  -->
         <Button
             x:Name="AddButton"
             Grid.Row="3"

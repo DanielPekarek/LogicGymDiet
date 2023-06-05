@@ -15,8 +15,8 @@ public partial class prehledPage : ContentPage
         InitializeComponent();
 
         loadcol();
-        int cas = Preferences.Get("cas", 0);
-        int kalorie = Preferences.Get("kalorie", 0);
+        //int cas = Preferences.Get("cas", 0);
+        //int kalorie = Preferences.Get("kalorie", 0);
         string cislo = Preferences.Default.Get("theme", "1");
         this.BindingContext = myViewModel;
         int theme = int.Parse(cislo);

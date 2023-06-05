@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ShellNav
+build_property.ProjectDir = C:\Users\Já\Source\Repos\LogicGymDiet.3.0.1\Aplikace_LogicGymDiet-master\ShellNav\
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Controls/MyFooter.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Controls.MyFooter.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\MyFooter.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\MyFooter.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Controls/MyHeader.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Controls.MyHeader.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\MyHeader.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\MyHeader.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/info/bilkovinyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.info.bilkovinyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\info\bilkovinyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\info\bilkovinyPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/info/rybyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.info.rybyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\info\rybyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\info\rybyPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/info/sacharidyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.info.sacharidyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\info\sacharidyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\info\sacharidyPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/info/svalstvoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.info.svalstvoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\info\svalstvoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\info\svalstvoPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/info/vlakninaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.info.vlakninaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\info\vlakninaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\info\vlakninaPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/katy/aktivityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.katy.aktivityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\katy\aktivityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\katy\aktivityPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/katy/bmiPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.katy.bmiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\katy\bmiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\katy\bmiPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/katy/jidelnaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.katy.jidelnaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\katy\jidelnaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\katy\jidelnaPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/prehled/NastaveniPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.prehled.NastaveniPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\prehled\NastaveniPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\prehled\NastaveniPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Pages/prehled/prehledPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Pages.prehled.prehledPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\prehled\prehledPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\prehled\prehledPage.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Themes/Theme1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Themes.Theme1.xaml
+build_metadata.AdditionalFiles.TargetPath = Themes\Theme1.xaml
+build_metadata.AdditionalFiles.RelativePath = Themes\Theme1.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Themes/Theme2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Themes.Theme2.xaml
+build_metadata.AdditionalFiles.TargetPath = Themes\Theme2.xaml
+build_metadata.AdditionalFiles.RelativePath = Themes\Theme2.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Themes/Theme3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Themes.Theme3.xaml
+build_metadata.AdditionalFiles.TargetPath = Themes\Theme3.xaml
+build_metadata.AdditionalFiles.RelativePath = Themes\Theme3.xaml
+
+[C:/Users/Já/Source/Repos/LogicGymDiet.3.0.1/Aplikace_LogicGymDiet-master/ShellNav/Themes/Theme4Custom.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShellNav.Themes.Theme4Custom.xaml
+build_metadata.AdditionalFiles.TargetPath = Themes\Theme4Custom.xaml
+build_metadata.AdditionalFiles.RelativePath = Themes\Theme4Custom.xaml
