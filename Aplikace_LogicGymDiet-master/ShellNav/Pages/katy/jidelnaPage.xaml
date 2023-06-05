@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShellNav.Pages.katy.jidelnaPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:local="clr-namespace:ShellNav"
+    Title="Jídelna"
+    BackgroundColor="{DynamicResource BackgroundColor}">
+
+    <Grid RowDefinitions="5,*,80">
+
+        <Grid
+            x:Name="addGrid"
+            Grid.RowSpan="4"
+            Padding="15"
+            BackgroundColor="{DynamicResource SecondaryColor}"
+            ColumnDefinitions="*,*"
+            HeightRequest="380"
+            IsVisible="false"
+            RowDefinitions="*,*,*,*,*,*,*"
+            WidthRequest="280"
+            ZIndex="2">
+
+            <Label
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Jméno" />
+
+            <Entry
+                x:Name="nameEntry"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Kcal" />
+
+            <Entry
+                x:Name="kalorieEntry"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Bílkoviny" />
+
+            <Entry
+                x:Name="bilkovinyEntry"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="3"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Vláknina" />
+
+            <Entry
+                x:Name="vlakninaEntry"
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="4"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Tuky" />
+
+            <Entry
+                x:Name="tukyEntry"
+                Grid.Row="4"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="5"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Sacharidy" />
+
+            <Entry
+                x:Name="sacharidyEntry"
+                Grid.Row="5"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Done"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+
+            <Button
+                x:Name="saveBtn"
+                Grid.Row="6"
+                Grid.Column="0"
+                Margin="1"
+                BackgroundColor="ForestGreen"
+                BorderColor="Black"
+                BorderWidth="3"
+                Clicked="saveBtn_Clicked"
+                Text="Save" />
+
+            <Button
+                x:Name="cancelBtn"
+                Grid.Row="6"
+                Grid.Column="1"
+                Margin="1"
+                BackgroundColor="Maroon"
+                BorderColor="Black"
+                BorderWidth="3"
+                Clicked="cancelBtn_Clicked"
+                Text="Cancel" />
+        </Grid>
+
+        <Grid
+            x:Name="editGrid"
+            Grid.RowSpan="4"
+            Padding="15"
+            BackgroundColor="#CD6155"
+            ColumnDefinitions="*,*"
+            HeightRequest="380"
+            IsVisible="false"
+            RowDefinitions="*,*,*,*,*,*,*"
+            WidthRequest="280"
+            ZIndex="2">
+
+            <Label
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Jméno" />
+
+            <Entry
+                x:Name="nameEditEntry"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Kcal" />
+
+            <Entry
+                x:Name="kalorieEditEntry"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Bílkoviny" />
+
+            <Entry
+                x:Name="bilkovinyEditEntry"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="3"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Vláknina" />
+
+            <Entry
+                x:Name="vlakninaEditEntry"
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="4"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Tuky" />
+
+            <Entry
+                x:Name="tukyEditEntry"
+                Grid.Row="4"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Next"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Label
+                Grid.Row="5"
+                Grid.Column="0"
+                Margin="2"
+                CharacterSpacing="1"
+                FontAttributes="Bold"
+                FontSize="18"
+                Text="Sacharidy" />
+
+            <Entry
+                x:Name="sacharidyEditEntry"
+                Grid.Row="5"
+                Grid.Column="1"
+                Margin="2"
+                android:Entry.ImeOptions="Done"
+                BackgroundColor="{DynamicResource ShellBackgroundColor}"
+                TextColor="Black" />
+
+            <Button
+                x:Name="saveEditBtn"
+                Grid.Row="6"
+                Grid.Column="0"
+                Margin="1"
+                BackgroundColor="ForestGreen"
+                BorderColor="Black"
+                BorderWidth="3"
+                Clicked="saveEditBtn_Clicked"
+                Text="Save" />
+
+            <Button
+                x:Name="cancelEditBtn"
+                Grid.Row="6"
+                Grid.Column="1"
+                Margin="1"
+                BackgroundColor="Maroon"
+                BorderColor="Black"
+                BorderWidth="3"
+                Clicked="cancelEditBtn_Clicked"
+                Text="Cancel" />
+
+        </Grid>
+
+        <ScrollView Grid.Row="1" ZIndex="1">
+            <CollectionView x:Name="FoodListView" ItemsSource="{x:Static local:JidloDataClass.FoodList}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.Header Padding="0,5" BackgroundColor="{DynamicResource PrimaryColor}">
+                    <Label
+                        Grid.Row="1"
+                        FontSize="Large"
+                        HorizontalTextAlignment="Center"
+                        Text="Přidej nebo vyber potravinu"
+                        TextColor="White"
+                        VerticalTextAlignment="Center" />
+                </CollectionView.Header>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+
+                        <SwipeView>
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem Clicked="Delete_Clicked" Text="Delete" />
+                                    <SwipeItem Clicked="Edit_Clicked" Text="Edit" />
+                                </SwipeItems>
+                            </SwipeView.LeftItems>
+                            <Grid>
+                                <VerticalStackLayout Padding="10" Spacing="5">
+                                    <Frame BorderColor="{DynamicResource PrimaryColor}" CornerRadius="10">
+
+                                        <Label
+                                            FontSize="20"
+                                            Text="{Binding Name}"
+                                            TextColor="{DynamicResource ShellBackgroundColor}"
+                                            TextDecorations="Underline"
+                                            TextTransform="Uppercase" />
+                                    </Frame>
+
+                                    <Frame Padding="5" BorderColor="#273746">
+                                        <Label Text="{Binding Kalorie, StringFormat='Kcal: {0}'}" TextColor="#CBE4DE" />
+                                    </Frame>
+                                    <Frame Padding="5" BorderColor="#273746">
+                                        <Label Text="{Binding Bilkoviny, StringFormat='Bílkoviny: {0}'}" TextColor="#3498DB" />
+                                    </Frame>
+                                    <Frame Padding="5" BorderColor="#273746">
+                                        <Label Text="{Binding Vlaknina, StringFormat='Vláknina: {0}'}" TextColor="#58D68D" />
+                                    </Frame>
+                                    <Frame Padding="5" BorderColor="#273746">
+                                        <Label Text="{Binding Tuky, StringFormat='Tuky: {0}'}" TextColor="#F1C40F" />
+                                    </Frame>
+                                    <Frame Padding="5" BorderColor="#273746">
+                                        <Label Text="{Binding Sacharidy, StringFormat='Sacharidy: {0}'}" TextColor="#CD6155" />
+                                    </Frame>
+
+                                </VerticalStackLayout>
+
+                            </Grid>
+                        </SwipeView>
+
+
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+        </ScrollView>
+
+        <Button
+            x:Name="AddButton"
+            Grid.Row="3"
+            Margin="15"
+            BackgroundColor="{DynamicResource SecondaryColor}"
+            Clicked="AddButton_Clicked"
+            FontFamily="Bold"
+            FontSize="Body"
+            HeightRequest="45"
+            HorizontalOptions="Center"
+            Text="Add"
+            TextColor="White"
+            TextTransform="Uppercase"
+            VerticalOptions="Start"
+            WidthRequest="320">
+
+            <Button.Shadow>
+                <Shadow
+                    Brush="{DynamicResource PrimaryColor}"
+                    Opacity="100"
+                    Offset="5,5" />
+            </Button.Shadow>
+        </Button>
+    </Grid>
+
+</ContentPage>
+

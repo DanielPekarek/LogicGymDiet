@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShellNav.Pages.info.vlakninaPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Vláknina"
+    BackgroundColor="White">
+    <VerticalStackLayout>
+
+
+        <Label
+            FontAttributes="Bold"
+            FontSize="30"
+            HorizontalOptions="Center"
+            Text="Vláknina"
+            TextColor="Black"
+            VerticalOptions="Center" />
+
+        <Label
+            Margin="5"
+            Padding="10"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Vláknina je směs nestravitelných nebo jen částečně stravitelných polysacharidů, to ale neznamená, že nám nic nepřináší a není nutné ji přijímat. Je tomu přesně naopak. Vláknina je jednou ze složek jídelníčku, která pozitivně působí na náš zdravotní stav."
+            TextColor="Black"
+            VerticalOptions="Center" />
+
+        <Label
+            Padding="10"
+            FontAttributes="Bold"
+            FontSize="16"
+            HorizontalOptions="Start"
+            Text="Potraviny bohaté na vlákninu"
+            TextColor="Black"
+            VerticalOptions="Center" />
+
+        <Label
+            Margin="5"
+            Padding="10"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Vláknina je obsažena zejména v celozrnných výrobcích, luštěninách, ovoci, zelenině, ořechách a semínkách. Mnoho lidí si myslí, že nejbohatším zdrojem vlákniny je ovoce a zelenina a pokud je tedy pravidelně konzumují, nemusí už vlákninu nijak řešit. Ale není tomu tak, zelenina a ovoce jako zdroj vlákniny určitě nestačí. Velmi důležité je, aby v jídelníčku byly obsaženy také celozrnné obiloviny, které jsou v porovnání se zeleninou na vlákninu o dost bohatší. Nicméně je potřeba brát v potaz také množství, které dané potraviny sníme.  "
+            TextColor="Black"
+            VerticalOptions="Center" />
+
+        <Image
+            Margin="10"
+            Aspect="AspectFit"
+            Source="brokolice.jpg" />
+
+
+    </VerticalStackLayout>
+</ContentPage>
