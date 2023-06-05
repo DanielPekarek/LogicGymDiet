@@ -1,0 +1,38 @@
+
+<Shell
+    x:Class="ShellNav.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:info="clr-namespace:ShellNav.Pages.info"
+    xmlns:katy="clr-namespace:ShellNav.Pages.katy"
+    xmlns:prehled="clr-namespace:ShellNav.Pages.prehled"
+    BackgroundColor="{DynamicResource SecondaryColor}"
+    Shell.FlyoutBehavior="Disabled">
+
+    <Shell.Resources>
+        <Style TargetType="TabBar">
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource ShellBackgroundColor}" />
+        </Style>
+    </Shell.Resources>
+
+
+    <TabBar x:Name="TabBar">
+        <Tab Title="Přehled" Icon="prehledy.svg">
+            <ShellContent Title="Cats" ContentTemplate="{DataTemplate prehled:prehledPage}" />
+        </Tab>
+        <Tab Title="Info" Icon="info.svg">
+            <ShellContent Title="Sacharidy" ContentTemplate="{DataTemplate info:sacharidyPage}" />
+            <ShellContent Title="Vlaknina" ContentTemplate="{DataTemplate info:vlakninaPage}" />
+            <ShellContent Title="Ryby" ContentTemplate="{DataTemplate info:rybyPage}" />
+            <ShellContent Title="Bílkoviny" ContentTemplate="{DataTemplate info:bilkovinyPage}" />
+
+        </Tab>
+        <Tab Title="Staty" Icon="stats.svg">
+            <ShellContent Title="Aktivity" ContentTemplate="{DataTemplate katy:aktivityPage}" />
+            <ShellContent Title="Jídelna" ContentTemplate="{DataTemplate katy:jidelnaPage}" />
+            <ShellContent Title="BMI" ContentTemplate="{DataTemplate katy:bmiPage}" />
+        </Tab>
+    </TabBar>
+</Shell>
+
+

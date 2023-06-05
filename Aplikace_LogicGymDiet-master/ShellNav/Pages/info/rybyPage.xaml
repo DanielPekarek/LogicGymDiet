@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShellNav.Pages.info.rybyPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Ryby"
+    BackgroundColor="White">
+
+    <VerticalStackLayout>
+
+        <Label
+            FontAttributes="Bold"
+            FontSize="30"
+            HorizontalOptions="Center"
+            Text="Konzumace ryb"
+            TextColor="Black"
+            VerticalOptions="Center" />
+
+        <Image
+            Margin="5"
+            Aspect="AspectFill"
+            Source="text.png" />
+
+
+        <Label
+            Margin="5"
+            Padding="10"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Nejen, že je rybí tuk jedním z nejlepších zdrojů vitaminu D, ale zároveň je i poměrně obtížně nahraditelným zdrojem omega-3 mastných kyselin. V neposlední řadě jsou ryby cenným zdrojem jódu. Dostatek vitaminu D je důležitý pro správné využití vápníku, ale také pro imunitní systém. Mezi omega-3 mastné kyseliny řadíme EPA, DPA a DHA, které se vyskytují v olejích mořských ryb a v tuku kytovců. Tito živočichové si je ale nevytváří, nýbrž je přijímají v potravě. Hlavním zdrojem je mořský plankton a kryl (to jsou např. řasy a korýši). "
+            TextColor="Black"
+            VerticalOptions="Center" />
+
+        <Image
+            Margin="10"
+            Aspect="AspectFit"
+            Source="ona.png" />
+
+    </VerticalStackLayout>
+</ContentPage>
